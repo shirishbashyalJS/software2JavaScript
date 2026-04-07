@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 8</title>
+</head>
+
+<body>
+    <p>Open t8 folder in your IDE/editor. Make a simple calculator. (4p)
+        There are two input fields where user enters numbers. Based on the drop-down list, calculator performs addition,
+        subtraction, multiplication or division of these two numbers.
+        Use the value attribute of <option> elements to decide which operation the calculator needs to do. Example.
+            Show the result in <p id="result"> when the button is clicked.</p>
+
+
+            <h1>Calculator</h1>
+            <input type="number" name="number1" id="number1" class="number1" style="font-size: 22px;">
+            <select name="operators" id="operators" class="operators" style="font-size: 22px;">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="/">/</option>
+                <option value="x">x</option>
+
+            </select>
+            <input type="number" name="number2" id="number2" class="number2" style="font-size: 22px;">
+            <button class="claculate" id="calculate" style="font-size: 22px;" onclick="handleResult()">=</button>
+
+            <h1>Result: <p class="result" id="result"></p>
+            </h1>
+
+            <script src="./t8.js""></script>
+
+</body>
+
+</html>
